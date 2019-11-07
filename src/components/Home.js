@@ -1,7 +1,11 @@
 import React from 'react'
-import {Segment, Grid} from "semantic-ui-react";
+import {Segment, Grid, Image} from "semantic-ui-react";
 import './home.css'
 import Navigation from './Navigation';
+import github from '../images/github.svg';
+import gitlab from '../images/gitlab.svg';
+import insta from '../images/insta.svg';
+
 
 class Home extends React.Component {
 
@@ -14,13 +18,19 @@ class Home extends React.Component {
                             <Grid.Column>
                                 <h1 className="title">Joma Sim</h1>
                                 <small className="secondary-title">Associate Software Engineer at Andela</small>
+                                <div className="links-container">
+                                    <Image src={github} size='medium' circular className="pro-link"/>
+                                    <Image src={gitlab} size='medium' circular className="pro-link github"/>
+                                    <Image src={insta} size='medium' circular className="pro-link insta"/>
+                                </div>
                             </Grid.Column>
 
                             <Grid.Column>
                                 <Navigation/>
                                 <h2 className="bio-title">Biography</h2>
                                 <p className="bio-body">
-                                    Hello!🤓 I am a full stack javascript developer(MERN) and I hold a Bachelor’s degree in
+                                    Hello!🤓 I am a full stack javascript developer(MERN) and I hold a Bachelor’s degree
+                                    in
                                     Information Technology from the Multimedia University of Kenya. I also have
                                     supplementary skills in Android application development and PHP Laravel.
                                 </p>
