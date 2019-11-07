@@ -5,6 +5,8 @@ import Navigation from './Navigation';
 import github from '../images/github.svg';
 import gitlab from '../images/gitlab.svg';
 import insta from '../images/insta.svg';
+import profile from '../images/profile.svg';
+import stacks from '../images/stacks.svg';
 
 
 class Home extends React.Component {
@@ -19,6 +21,8 @@ class Home extends React.Component {
                                 <h1 className="title">Joma Sim</h1>
                                 <small className="secondary-title">Associate Software Engineer at Andela</small>
                                 <div className="links-container">
+                                    <Image src={profile}/>
+
                                     <Image src={github} size='medium' circular className="pro-link"/>
                                     <Image src={gitlab} size='medium' circular className="pro-link github"/>
                                     <Image src={insta} size='medium' circular className="pro-link insta"/>
@@ -34,6 +38,12 @@ class Home extends React.Component {
                                     Information Technology from the Multimedia University of Kenya. I also have
                                     supplementary skills in Android application development and PHP Laravel.
                                 </p>
+
+                                <h2 className="bio-title">Primary Skills and Tools</h2>
+
+                                <div>
+                                    <Image src={stacks} size='medium'/>
+                                </div>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
