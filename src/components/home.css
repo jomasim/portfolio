@@ -1,0 +1,40 @@
+.ui.placeholder.segment.pot-segment {
+    background: #2E2C2C !important;
+    min-height: 18rem;
+}
+
+h1.title {
+    color: #8AAA2D;
+    font-size: 42px;
+    margin-left: 200px;
+    font-family: 'Finger paint', sans-serif;
+}
+
+small.secondary-title {
+    color: #FFF;
+    font-family: Muli, sans-serif;
+    margin-left: 200px;
+    font-size: 13px;
+}
+
+.ui.pointing.secondary.menu-container.menu.menu-container {
+    margin-top: -10px;
+}
+
+.ui.secondary.pointing.menu .active.item.header-item {
+    color: #FFFFFF;
+    font-family: Muli, sans-serif;
+}
+
+h2.bio-title {
+    color: #FFF;
+    font-family: Muli, sans-serif;
+}
+
+p.bio-body {
+    color: #F2F2F2 !important;
+    font-weight: 100;
+    font-family: Muli, sans-serif;
+    line-height: 30px;
+    max-width: 500px;
+}
