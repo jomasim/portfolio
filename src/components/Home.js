@@ -21,10 +21,10 @@ class Home extends React.Component {
                                 <h1 className="title">Joma Sim</h1>
                                 <small className="secondary-title">Associate Software Engineer at Andela</small>
                                 <div className="links-container">
-                                    <Image src={profile}/>
+                                    <Image src={profile} className="profile-image"/>
 
-                                    <Image src={github} size='medium' circular className="pro-link"/>
-                                    <Image src={gitlab} size='medium' circular className="pro-link github"/>
+                                    <Image src={github} size='medium' circular className="pro-link github"/>
+                                    <Image src={gitlab} size='medium' circular className="pro-link gitlab"/>
                                     <Image src={insta} size='medium' circular className="pro-link insta"/>
                                 </div>
                             </Grid.Column>
