@@ -17,6 +17,10 @@ const navigation = () => (
             className="header-item"
         />
         <Menu.Item
+            name='Experience'
+            className="header-item"
+        />
+        <Menu.Item
             name='Contact'
             className="header-item"
         />

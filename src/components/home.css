@@ -25,6 +25,7 @@ small.secondary-title {
 .ui.secondary.pointing.menu .active.item.header-item {
     color: #FFFFFF;
     font-family: Muli, sans-serif;
+    border-color: #8aa92d;
 }
 
 h2.bio-title {
@@ -49,15 +50,24 @@ p.bio-body {
 img.ui.medium.circular.image.pro-link {
     width: 20px;
     display: inline-block;
-    margin-right: 40px;
     margin-top: 40px;
+    margin-right: 10px;
 }
 
 img.ui.medium.circular.image.pro-link.github {
     width: 20px;
-    margin-left: 210px;
+    margin-left: 260px;
+}
+
+img.ui.medium.circular.image.pro-link.gitlab {
+    width: 36px;
 }
 
 img.image.profile-image.ui {
     margin-left: 120px;
+}
+
+.ui.menu .item {
+    color: #FFFFFF !important;
+    cursor: pointer;
 }
